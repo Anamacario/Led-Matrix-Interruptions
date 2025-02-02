@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "build/Led-Matrix-Interruptions.uf2"
+elf = "build/Led-Matrix-Interruptions.elf"
