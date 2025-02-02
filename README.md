@@ -62,9 +62,8 @@ Este projeto implementa um sistema interativo utilizando o microcontrolador **Ra
 
 1. **Código-fonte**: Disponível no repositório GitHub com documentação e organização.
 2. **Vídeo Demonstrativo**:
-   - O vídeo deve mostrar o funcionamento do projeto.
-   - Explicação rápida sobre as funcionalidades implementadas.
    - Demonstração em execução na placa **BitDogLab**.
+   Click [AQUI](https://drive.google.com/file/d/1fU0dZwQcaFhBf-Q7Ubn6J-NrhgAR87xq/view?usp=sharing) para acessar o link de apresentação.
 
 ## Autoria
 **Desenvolvido por:** Ana Carla Macário
