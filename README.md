@@ -63,7 +63,7 @@ Este projeto implementa um sistema interativo utilizando o microcontrolador **Ra
 1. **Código-fonte**: Disponível no repositório GitHub com documentação e organização.
 2. **Vídeo Demonstrativo**:
    - Demonstração em execução na placa **BitDogLab**.
-   Click [AQUI](https://drive.google.com/file/d/1fU0dZwQcaFhBf-Q7Ubn6J-NrhgAR87xq/view?usp=sharing) para acessar o link de apresentação.
+   - Click [AQUI](https://drive.google.com/file/d/1fU0dZwQcaFhBf-Q7Ubn6J-NrhgAR87xq/view?usp=sharing) para acessar o link do vídeo de apresentação.
 
 ## Correção de Erro ao Compilar em Nova Máquina
 
@@ -80,7 +80,8 @@ Ao clonar o repositório e compilar o código em uma nova máquina, pode ocorrer
     ```c
     pio_sm_config c = ws2812_program_get_default_config(offset);
 - Compile novamente. O código funcionará normalmente.
-⚠️ Observação:
+
+## ⚠️ Observação:
 Essa correção é necessária devido a diferenças na forma como o arquivo é gerado durante o processo de build em diferentes ambientes.
 
 ## Autoria
