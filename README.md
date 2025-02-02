@@ -65,6 +65,24 @@ Este projeto implementa um sistema interativo utilizando o microcontrolador **Ra
    - Demonstração em execução na placa **BitDogLab**.
    Click [AQUI](https://drive.google.com/file/d/1fU0dZwQcaFhBf-Q7Ubn6J-NrhgAR87xq/view?usp=sharing) para acessar o link de apresentação.
 
+## Correção de Erro ao Compilar em Nova Máquina
+
+Ao clonar o repositório e compilar o código em uma nova máquina, pode ocorrer um erro relacionado à biblioteca **ws2812**.
+
+## ✅ Passos para Corrigir:
+
+1. Compile o código normalmente, mesmo que o erro apareça.  
+2. Após compilar, na pasta build abra o arquivo `ws2812.pio.h`.  
+3. Localize a linha 49, onde estará o seguinte trecho:  
+   ```c
+   pio_sm_config c = pio_ws2812_program_get_default_config(offset);
+- Remova o prefixo _pio, deixando assim:
+    ```c
+    pio_sm_config c = ws2812_program_get_default_config(offset);
+- Compile novamente. O código funcionará normalmente.
+⚠️ Observação:
+Essa correção é necessária devido a diferenças na forma como o arquivo é gerado durante o processo de build em diferentes ambientes.
+
 ## Autoria
 **Desenvolvido por:** Ana Carla Macário
 
