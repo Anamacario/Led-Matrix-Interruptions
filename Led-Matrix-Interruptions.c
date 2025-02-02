@@ -14,6 +14,7 @@
 #define LED_R 13
 #define BLINK_INTERVAL 100
 #define DEBOUNCE_TIME 300
+#define pio_ws2812_program_get_default_config ws2812_program_get_default_config // Correção para compatibilidade entre diferentes máquinas.
 
 uint32_t lastBlinkTime = 0;
 bool ledState = false;
